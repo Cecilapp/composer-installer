@@ -4,7 +4,7 @@ The [Composer](https://getcomposer.org) Installer for [Cecil](https://cecil.app)
 
 ## Usage
 
-Add the following lines to the `composer.json` file of your theme:
+Add the following lines to the `composer.json` file of your **plugin** or **theme**:
 
 ```json
 "require": {
@@ -18,7 +18,7 @@ Add the following lines to the `composer.json` file of your theme:
 "type": "cecil-<type>",
 ```
 
-`<type>` could be "plugin" or "theme".
+Value of `<type>` could be "plugin" or "theme".
 
 ### Name
 
