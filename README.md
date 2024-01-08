@@ -8,7 +8,7 @@ Add the following lines to the `composer.json` file of your theme:
 
 ```json
 "require": {
-  "cecil/composer-installer": "^1.0"
+  "cecil/installer": "^1.0"
 }
 ```
 
