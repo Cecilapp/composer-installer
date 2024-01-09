@@ -4,7 +4,6 @@ namespace Cecil\Installer;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use Cecil\Installer\Installer;
 
 class Plugin implements PluginInterface
 {
