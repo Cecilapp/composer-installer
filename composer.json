@@ -29,7 +29,7 @@
     }
   },
   "extra": {
-    "class": "Cecil\\Installer",
+    "class": "Cecil\\Installer\\Plugin",
     "branch-alias": {
       "dev-master": "2.x-dev"
     }
