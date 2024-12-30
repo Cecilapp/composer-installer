@@ -1,10 +1,10 @@
 # Cecil Composer Installer
 
-The [Composer](https://getcomposer.org) Installer for [Cecil](https://cecil.app)'s plugins and themes.
+The [Composer](https://getcomposer.org) Installer for [Cecil](https://cecil.app)'s themes and extensions.
 
 ## Usage
 
-Add the following lines to the `composer.json` file of your **plugin** or **theme**:
+Add the following lines to the `composer.json` file of your **theme** or **extension**:
 
 ```json
 "require": {
@@ -18,7 +18,7 @@ Add the following lines to the `composer.json` file of your **plugin** or **them
 "type": "cecil-<type>",
 ```
 
-Value of `<type>` could be "plugin" or "theme".
+Value of `<type>` could be `theme` or `extension`.
 
 ### Name
 

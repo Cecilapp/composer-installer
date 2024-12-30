@@ -1,12 +1,12 @@
 {
   "name": "cecil/installer",
-  "description": "Installer for Cecil's plugins and themes.",
+  "description": "Installer for Cecil's themes and extensions.",
   "type": "composer-plugin",
   "keywords": [
     "cecil",
     "installer",
-    "plugins",
-    "themes"
+    "themes",
+    "extensions"
   ],
   "license": "MIT",
   "authors": [

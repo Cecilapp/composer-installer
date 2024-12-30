@@ -6,8 +6,8 @@ use Composer\Package\PackageInterface;
 
 class Installer extends LibraryInstaller
 {
-    const TYPE_PLUGIN = 'cecil-plugin';
     const TYPE_THEME = 'cecil-theme';
+    const TYPE_EXTENSION = 'cecil-extension';
 
     /**
      * {@inheritDoc}
@@ -16,11 +16,11 @@ class Installer extends LibraryInstaller
     {
         switch($package->getType())
         {
-            case self::TYPE_PLUGIN:
-                $dir = 'plugins';
-                break;
             case self::TYPE_THEME:
                 $dir = 'themes';
+                break;
+            case self::TYPE_EXTENSION:
+                $dir = 'extensions';
                 break;
         }
 
@@ -32,7 +32,7 @@ class Installer extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return in_array($packageType, [self::TYPE_PLUGIN, self::TYPE_THEME], true);
+        return in_array($packageType, [self::TYPE_THEME, self::TYPE_EXTENSION], true);
     }
 
     /**
